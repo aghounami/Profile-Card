@@ -126,7 +126,15 @@
     border: 1px solid #595959;
 }
 
+<<<<<<< HEAD
 @media (max-width: 500px) {
+=======
+a{
+    transition: 0.5s;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+>>>>>>> 3b8bf48b921798408bc99335a86b677d09875ae4
 
     .bdy{
         background-color: white;
