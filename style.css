@@ -92,9 +92,11 @@ h3{
 a{
     transition: 0.5s;
     text-decoration: none;
+    color: black;
 }
 
 a:hover{
     transform: scale(1.6);
     opacity: 0.8;
+    color : purple;
 }
