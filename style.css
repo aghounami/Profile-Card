@@ -78,6 +78,7 @@
 .social li a{   
     transition: 0.5s;
     text-decoration: none;
+    color: #000000;
 }
 
 .social li a:hover{
@@ -124,4 +125,31 @@
     color: #595959;
     border-radius: 50px;
     border: 1px solid #595959;
+}
+
+@media (max-width: 500px) {
+    .content{
+        width: 300px;
+        height: 500px;
+    }
+    .btn{
+        gap: 10px;
+    }
+
+    .name{
+        font-size: 20px;
+        letter-spacing: 1px;
+    }
+
+    .description{
+        font-size: 14px;
+    }
+
+    .social{
+        gap: 20px;
+    }
+
+    .btn{
+        margin-top: 20px;
+    }
 }
